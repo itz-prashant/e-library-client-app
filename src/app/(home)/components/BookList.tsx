@@ -9,14 +9,6 @@ const BookList = ({books}:{books: Book[]}) => {
         books.map((book)=>(
           <>
             <BookCard key={book._id} book={book}/>
-            <BookCard key={book._id} book={book}/>
-            <BookCard key={book._id} book={book}/>
-            <BookCard key={book._id} book={book}/>
-            <BookCard key={book._id} book={book}/>
-            <BookCard key={book._id} book={book}/>
-            <BookCard key={book._id} book={book}/>
-            <BookCard key={book._id} book={book}/>
-            <BookCard key={book._id} book={book}/>
           </>
         ))
       }

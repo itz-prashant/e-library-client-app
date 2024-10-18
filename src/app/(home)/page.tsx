@@ -8,7 +8,6 @@ export default async function Home() {
       throw new Error('An error occoured while fetching books')
     }
     const booksList = await response.json()
-    console.log(booksList);
 
   return (
     <>
